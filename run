@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+$OPSCENTER_HOME/bin/opscenter -f
