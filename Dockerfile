@@ -4,9 +4,9 @@ MAINTAINER Kirk True <kirk@mustardgrain.com>
 
 CMD ["/sbin/my_init"]
 
-ENV OPSCENTER_VERSION=5.0.2
-ENV OPSCENTER_URL=http://downloads.datastax.com/community/opscenter-$OPSCENTER_VERSION.tar.gz
-ENV OPSCENTER_HOME=/opt/opscenter-$OPSCENTER_VERSION
+ENV OPSCENTER_VERSION 5.0.2
+ENV OPSCENTER_URL http://downloads.datastax.com/community/opscenter-$OPSCENTER_VERSION.tar.gz
+ENV OPSCENTER_HOME /opt/opscenter-$OPSCENTER_VERSION
 
 RUN cd /opt && /usr/bin/curl -L -s $OPSCENTER_URL | tar xz
 
