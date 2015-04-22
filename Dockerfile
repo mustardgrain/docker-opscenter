@@ -4,7 +4,7 @@ MAINTAINER Kirk True <kirk@mustardgrain.com>
 
 CMD ["/sbin/my_init"]
 
-ENV OPSCENTER_VERSION 5.1.0
+ENV OPSCENTER_VERSION 5.1.1
 ENV OPSCENTER_URL http://downloads.datastax.com/community/opscenter-$OPSCENTER_VERSION.tar.gz
 ENV OPSCENTER_HOME /opt/opscenter-$OPSCENTER_VERSION
 
